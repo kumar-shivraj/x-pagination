@@ -22,6 +22,7 @@ function App() {
         setUserData(data);
       })
       .catch((err) => {
+        window.alert("failed to fetch data");
         console.log(err);
       });
   }, []);
