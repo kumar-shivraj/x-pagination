@@ -94,7 +94,7 @@ function App() {
         }}
       >
         <button className="btn" onClick={prevPage}>
-          Prev
+        Previous
         </button>
 
         {numbers.map((n, i) => {
